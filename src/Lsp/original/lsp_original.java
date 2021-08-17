@@ -6,8 +6,8 @@ package Lsp.original;
 public class lsp_original {
 
     public static Funcionario getFuncionario() {
-        //return new Funcionario();
-        return new Gerente();
+        return new Funcionario();
+        //return new Gerente();
     }
 
     public static void main(String args[]) {

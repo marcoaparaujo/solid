@@ -7,8 +7,7 @@ public class dip_refatorado {
 
     public static void main(String args[]) {
 
-        Formato formato = new Html();
-        Arquivo arquivo = new Arquivo(formato);
+        Arquivo arquivo = new Arquivo(new Pdf());
         arquivo.setConteudo("texto");
         arquivo.imprimir();
         
